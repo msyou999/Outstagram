@@ -14,6 +14,7 @@
 		750E6B15277595A500FA57FD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E6B14277595A500FA57FD /* ProfileViewController.swift */; };
 		750E6B1727759B0800FA57FD /* ProfileDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E6B1627759B0800FA57FD /* ProfileDataView.swift */; };
 		750E6B192775A03200FA57FD /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750E6B182775A03200FA57FD /* ProfileCollectionViewCell.swift */; };
+		758FFCFB277AD95D00C7133D /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758FFCFA277AD95D00C7133D /* UploadViewController.swift */; };
 		75F5C77827743C8300841148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F5C77727743C8300841148 /* AppDelegate.swift */; };
 		75F5C77A27743C8300841148 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F5C77927743C8300841148 /* SceneDelegate.swift */; };
 		75F5C77C27743C8300841148 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F5C77B27743C8300841148 /* FeedViewController.swift */; };
@@ -29,6 +30,7 @@
 		750E6B14277595A500FA57FD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		750E6B1627759B0800FA57FD /* ProfileDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataView.swift; sourceTree = "<group>"; };
 		750E6B182775A03200FA57FD /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		758FFCFA277AD95D00C7133D /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		75F5C77427743C8300841148 /* Outstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Outstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F5C77727743C8300841148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75F5C77927743C8300841148 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			children = (
 				75F5C77B27743C8300841148 /* FeedViewController.swift */,
 				750E6B0E2775690300FA57FD /* FeedTableViewCell.swift */,
+				758FFCFA277AD95D00C7133D /* UploadViewController.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75F5C77C27743C8300841148 /* FeedViewController.swift in Sources */,
+				758FFCFB277AD95D00C7133D /* UploadViewController.swift in Sources */,
 				750E6B192775A03200FA57FD /* ProfileCollectionViewCell.swift in Sources */,
 				750E6B11277570FF00FA57FD /* UIButton+.swift in Sources */,
 				750E6B0C2775649300FA57FD /* TabBarController.swift in Sources */,
